@@ -6,3 +6,11 @@ jobs:
         steps:
             - name: my first workflow
               run: echo "hello, well come to github workflow"
+
+
+
+    second_job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: my second workflow
+              run: echo "how are you"
