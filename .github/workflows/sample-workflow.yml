@@ -15,6 +15,9 @@ jobs:
             - name: my second workflow
               run: echo "how are you"
 
+            - name: access git repo
+              run: git clone "https://github.com/immanojgm/GitOps-Demo.git"
+
             - name: list files
               run: ls
               
