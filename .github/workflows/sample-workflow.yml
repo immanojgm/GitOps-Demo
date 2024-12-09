@@ -14,3 +14,9 @@ jobs:
         steps:
             - name: my second workflow
               run: echo "how are you"
+
+            - name: list files
+              run: ls
+              
+            - name: read this file
+              run: cat Radme.md
